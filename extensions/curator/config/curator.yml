@@ -2,11 +2,11 @@
 # https://www.elastic.co/guide/en/elasticsearch/client/curator/current/configfile.html
 
 client:
-  hosts:
-    - elasticsearch
-  port: 9200
-  http_auth: 'elastic:changeme'
+    hosts:
+        - elasticsearch
+    port: 9200
+    http_auth: 'elastic:changeme'
 
 logging:
-  loglevel: INFO
-  logformat: default
+    loglevel: INFO
+    logformat: default
